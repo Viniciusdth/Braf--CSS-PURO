@@ -7,7 +7,6 @@ body, h1, h2, p, ul {
 
 body {
   font-display: Georgia, serif;
-
 }
 
 /* Menu */
@@ -182,7 +181,7 @@ a.menu-logo {
   box-shadow: 0 0 0 10px currentColor;
 }
 
-.produtos-paulista::before{
+.produtos-paulista::before {
   color: #492901;
 }
 
@@ -207,7 +206,67 @@ a.menu-logo {
   display: block;
   font-size: 1.125em;
   font-weight: bold;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  padding: 0.75em;
+  padding: 15px 0;
+  margin: 20px auto 0 auto;
+}
+
+/* Locais */
+
+.locais {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.locais-item {
+  clear: both;
+  margin: 60px auto;
+}
+
+.locais-item::after, .locais-item::before {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.locais-item img {
+  width: 460px;
+  float: left;
+  margin: 0px 10;
+  display: block;
+}
+
+.locais-item div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.locais-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.locais-item p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  max-height: 320px;
+  margin-bottom: 40px;
+}
+
+.locais-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.locais-item a {
+  font-size: 1.125em; 
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 3px solid;
+  color: #252525;
 }
